@@ -43,7 +43,6 @@ Children:
     Id: g=e65e837a50b652b882b193c03adbb6f4
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: EnforcePasswordHistory
     Id: g=87e878ae823e0cacb8ecd65db9b3090f
     Type: BaseDataVariableType
@@ -53,7 +52,6 @@ Children:
     Id: g=a746cbd24ca5f637c60f9440841f584d
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MinimumPasswordLength
     Id: g=190b9eb4bab4e672b0d34498b75e0e3b
     Type: BaseDataVariableType

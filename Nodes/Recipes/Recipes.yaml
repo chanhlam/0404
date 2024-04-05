@@ -14,17 +14,14 @@ Children:
       Id: g=8a0fe485d3d74a1a5a8b45581646f035
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Ingredient02
       Id: g=d98f618b6b36bd418b6077c045e78dee
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Ingredient03
       Id: g=ca14f03aa83f80dcc10aaf1ead5da4be
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
   - Class: Reference
     Target: ns=25;i=27
     Direction: Forward
@@ -71,7 +68,6 @@ Children:
       Id: g=2bf74c037c4af774d89f2fa72425a9e5
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Store
     Id: g=3416e09f47e5108af88df7e2a6b7f423
     Type: NodePointer
@@ -91,14 +87,11 @@ Children:
       Id: g=0c6e6ed46dbcd156a279debf362a174a
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Ingredient02
       Id: g=de36d0753ccce38fbea08cb6f84b7466
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Name: Ingredient03
       Id: g=855fb247d150c2226794ae0452f56237
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0

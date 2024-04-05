@@ -57,7 +57,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Id: g=ef31f2df8a39a8a71ad198381edc4479
       Type: BaseVariableType
@@ -119,7 +118,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Id: g=5c7cf9101105843894167a03e9e2bd29
       Type: BaseVariableType

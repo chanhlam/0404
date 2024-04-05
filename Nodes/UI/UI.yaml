@@ -122,17 +122,14 @@ Children:
         Id: g=824fedda64f6b7265875a4719bc17c71
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Id: g=6afcee56200583ab8ff187d2ab5958f0
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Id: g=772f54742764b8562ea5e56266814688
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Id: g=e1cb009e8c0effdbc53a5daa1b9568b3
     Type: BaseObjectType
@@ -240,7 +237,6 @@ Children:
     Id: g=6744334f98b2c88961c2548a220173a9
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: StartWindow
     Id: g=f894ff4e714bc173600388dae259eacf
     Type: NodePointer
@@ -272,7 +268,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ReferenceType: HasSource
-        Value: false
         Children:
         - Name: DynamicLink
           Id: g=749ccfc6ecba726086ad64be9b972426
@@ -325,7 +320,6 @@ Children:
     Id: g=13f9fe024eba8f942ce747d45d954adc
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
     Children:
     - Name: DynamicLink
       Id: g=d184f72cdacc71f7b96950a5a4467e4d
@@ -348,7 +342,6 @@ Children:
           Id: g=87774630723f044e99fc08c22aaab335
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=da81a4b6d8a8cbf6d1b3601145e0dc8f
           Type: NodePointer
@@ -368,7 +361,6 @@ Children:
           Id: g=48947e891496503687c588f571ed9db5
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=6a221637056713d9edf0ded76a9be604
           Type: NodePointer
@@ -388,7 +380,6 @@ Children:
           Id: g=c7d03b7c5647830bc522b40902dbf365
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=2caa4592272cd1dc6e9442deb043f1b0
           Type: NodePointer
@@ -408,7 +399,6 @@ Children:
           Id: g=6820021120894fe75e165a0365827caa
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=f65bdeb9e6780b0d4ce466f036ba754b
           Type: NodePointer
@@ -428,7 +418,6 @@ Children:
           Id: g=8b542ac62875067d702845910d10489e
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=67fbcdadc513c10737c5e7620b78062c
           Type: NodePointer
@@ -448,7 +437,6 @@ Children:
           Id: g=7f3f7b43b86d7b2dc04677e1d8cd7848
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=0332936cfa14c053213f8868ff7cd715
           Type: NodePointer
@@ -468,7 +456,6 @@ Children:
           Id: g=28d505d878ecd491b34d38bbc25094d0
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=e7f41b070b43d1dfd98738937216627c
           Type: NodePointer
@@ -488,7 +475,6 @@ Children:
           Id: g=cab7dfa3523ff7756853837a933a3bbf
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=1bb321ea35bc6bed43115c274b1637ee
           Type: NodePointer
@@ -508,7 +494,6 @@ Children:
           Id: g=420eb3f9ae5636f2910e0d0b22049965
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=384705155eb57f3051127c3e7d8b890a
           Type: NodePointer
@@ -528,7 +513,6 @@ Children:
           Id: g=3fa14c0ef1d35360b6667669f9d3d0ce
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Id: g=d43c805dbe60a57630103b57ca510b41
           Type: NodePointer
@@ -545,7 +529,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Id: g=a257b1b474dd130efd953e6c3b6c978f
@@ -556,7 +539,6 @@ Children:
       Id: g=b85c3878d35237c238277d70c4a92b77
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Class: Reference
       Target: ns=3;i=1181
       Direction: Forward
@@ -630,7 +612,6 @@ Children:
     Id: g=981c03811e89d351735d18bec6d5983f
     Type: BaseDataVariableType
     DataType: Protocol
-    Value: 0
   - Name: IPAddress
     Id: g=936f49b8fe21b8593ea2effa92fa338a
     Type: BaseDataVariableType
@@ -693,25 +674,21 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
       - Name: IsWeb
         Id: g=a935198ee68e6d2b28ce433e66159747
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
       - Name: IpAddress
         Id: g=2e61ae12156cf02d0941e5eeb0d4bf52
         Type: BaseDataVariableType
         DataType: String
         AccessLevel: Read
-        Value: ""
       - Name: User
         Id: g=3907149e9b7f8a0abc39e7d8b824e9c2
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Id: g=40cb238d52c9fc163924b70cc472a4e6
@@ -723,19 +700,16 @@ Children:
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
-        Value: ""
       - Name: ActualLanguage
         Id: g=6ce0c2cc70656b9e5afdb7741e162eee
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
-        Value: ""
       - Name: ActualMeasurementSystem
         Id: g=6a9732b949c8164edb20e4b77a04e344
         Type: BaseVariableType
         DataType: MeasurementSystem
         ReferenceType: HasProperty
-        Value: 0
       - Name: TimeZoneOffset
         Id: g=9ae0873ea95c90ef02c77805a884cb31
         Type: BaseVariableType
@@ -768,7 +742,6 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
   - Name: MaxNumberOfConnections
     Id: g=183721cd7c78744dbe1070446bb068f7
     Type: BaseDataVariableType
@@ -894,17 +867,14 @@ Children:
         Id: g=60c960f40663858466fa295577c00ad2
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Id: g=2783eb2b3835c12a1e050db3490ea74b
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Id: g=26e270ca776185738b2763bf29b6a4a9
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Id: g=2354df9353b8ae7e48373acbfed183e8
     Type: BaseObjectType
