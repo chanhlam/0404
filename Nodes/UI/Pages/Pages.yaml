@@ -380,7 +380,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#ffffff"
+      Value: "#f8e71c"
     - Name: BorderThickness
       Id: g=7830bb99c17ea3f3ab091c59f1c2eee3
       Type: BaseDataVariableType
@@ -442,13 +442,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 253.0
+      Value: 160.0
     - Name: TopMargin
       Id: g=973a047250bad1de8cbd02aaa26d8a98
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 73.0
+      Value: 286.0
     - Name: RightMargin
       Id: g=22e4a470708bb3588dc003cbbb5b35e0
       Type: BaseVariableType
@@ -501,7 +501,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#ffffff"
+      Value: "#eb001b"
     - Name: BorderThickness
       Id: g=fc3b161e5bd04803aebad23c5c34af24
       Type: BaseDataVariableType
@@ -558,13 +558,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 239.0
+      Value: 60.0
     - Name: TopMargin
       Id: g=3d398d02c851e8833d6805b8d3de3a8f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 133.0
+      Value: 276.0
     - Name: RightMargin
       Id: g=e49a3cf0b0d05dfd31bccc05549813fc
       Type: BaseVariableType
@@ -599,120 +599,6 @@ Children:
       ModellingRule: Optional
     - Name: Rotation
       Id: g=338c7a910407136be93ceebc024eae5d
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-  - Name: Ellipse2
-    Id: g=0e65596fd255416bb4a29954ff60795e
-    Type: Ellipse
-    Children:
-    - Name: BorderColor
-      Id: g=89b32297be39d29d188584ba275997c7
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#000000"
-    - Name: FillColor
-      Id: g=e1e2b8702163e979332f7651d7cc4886
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#ffffff"
-    - Name: BorderThickness
-      Id: g=473e2fe433dc62e9411724aed8a55fb2
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
-    - Name: HitTestVisible
-      Id: g=94abfc4df62bd25e77d1ff2c14538b30
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-    - Name: Blink
-      Id: g=46f07a8eb262a7161e7c5c718a29afef
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-    - Name: MoveTarget
-      Id: g=c4d9e1dc374957ca1f2667eb0ab88b0c
-      Type: NodePointer
-      DataType: NodeId
-      ModellingRule: Optional
-      Children:
-      - Name: Kind
-        Id: g=438dfc65468ca206f8134336f0fe18c6
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: NodeClass
-        Id: g=db8745fbec0c69a9fb4ccb6e6cef160a
-        Type: PropertyType
-        DataType: NodePointerNodeClass
-        ModellingRule: Optional
-        Value: 2
-    - Name: Visible
-      Id: g=f03d7bfc6fd8dfff5664caf3cf3af765
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: true
-    - Name: Enabled
-      Id: g=3c159d88c1880b55eb56ad82f37432a8
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: true
-    - Name: Opacity
-      Id: g=c20ccf307628c83d29c980c8ad429343
-      Type: BaseVariableType
-      DataType: Float
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: LeftMargin
-      Id: g=b090e02f41bba2aac5c2ebcfb01dd67f
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 306.0
-    - Name: TopMargin
-      Id: g=a6ed77cdfa4d37b224e52b74b601dfd3
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 211.0
-    - Name: RightMargin
-      Id: g=91a9db69932321b2b3179be870625f9b
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: BottomMargin
-      Id: g=1e80639deca353d86f4b8c16afa325a2
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: Width
-      Id: g=9d9c57416b17852dacd76be55d14c474
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: Height
-      Id: g=365423c5525140a8137a1d7fb2ab34ec
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: HorizontalAlignment
-      Id: g=3d70b55bbe8ef3ee59d1463020acf47b
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-    - Name: VerticalAlignment
-      Id: g=3faf33bed0b6540f124269836bd2e8e3
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-    - Name: Rotation
-      Id: g=94fca417dac9097e828e773ff29fa707
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
