@@ -1,0 +1,21 @@
+Name: Screens
+Id: g=6295b4cac7ae2cd32e4a83350e8cf86a
+Type: ScreensCategoryFolder
+Children:
+- Name: Page
+  Id: g=cd4650755cbd760aa99111950ebfee14
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: LeftMargin
+    Id: g=9973582eae0ac2e61014338986c5c0cc
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 10.0
+  - Name: TopMargin
+    Id: g=876cde2c3a3beb19d4eef48b38084aca
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 10.0

@@ -1,0 +1,128 @@
+Name: Templates
+Id: g=4e7aaf641b0823770510c4fe2f0050ed
+Type: FolderType
+Children:
+- Name: MyObjectScaled
+  Id: g=3a1d018b9d73c5c5be9270bef7c9a5e2
+  Supertype: ScaleLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: OriginalWidth
+    Id: g=997d53e9e48626eb66e930747b9cf971
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 200.0
+  - Name: OriginalHeight
+    Id: g=b9d01e030ae6385e4ba7e09d8d38ae45
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 100.0
+  - Name: HorizontalAlignment
+    Id: g=722a4cf668fcca2f68a28a143b7ccda7
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=3c2986ca3988175178266872451cd88f
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Image1
+    Id: g=9955bfbf140ceae0187e6f7a7e375c25
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=88ee66a2caad072dd511b3a491cd7ad3
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=7;%PROJECTDIR%/ra_logo.svg"
+    - Name: HorizontalAlignment
+      Id: g=15fd208ad78944391f14235994428a92
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Width
+      Id: g=e16d0ff121a6d23619b29dd92d31c35e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Id: g=5f9ef69f2f8e085cf2c60dece51e3d6c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: VerticalAlignment
+      Id: g=ef31f2df8a39a8a71ad198381edc4479
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+- Name: MyObject
+  Id: g=6871b5305de587ff2dc8f923e385c2f8
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=308fb46284b811ae5e82828671f7d076
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 200.0
+  - Name: Height
+    Id: g=206f8841d68bb790980a328b49fc7d17
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 100.0
+  - Name: HorizontalAlignment
+    Id: g=5c142d19bc44ecbd75c4ee0a771a0738
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=5936802e22b538c169bfff1a98a01e0f
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Image1
+    Id: g=d27f414abe04f581694629072a1d4579
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=434ad2aa843c71f381ae4fa33cbcd68e
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=7;%PROJECTDIR%/ra_logo.svg"
+    - Name: HorizontalAlignment
+      Id: g=baee51d835cab7a9abdb542bcf4f6856
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Width
+      Id: g=62657db7e4037496d97ae63b7e508563
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Id: g=e978665531b1237c46bf91a643e4823a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: VerticalAlignment
+      Id: g=5c7cf9101105843894167a03e9e2bd29
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2

@@ -1,0 +1,104 @@
+Name: Recipes
+Id: g=2be2f1ac5ca1b9039aa5860e2a79e6c0
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=1519bffa9c68d4d25420233609f5ae76
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Id: g=36a93f33851730086a16f31327cdc422
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Id: g=8a0fe485d3d74a1a5a8b45581646f035
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient02
+      Id: g=d98f618b6b36bd418b6077c045e78dee
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient03
+      Id: g=ca14f03aa83f80dcc10aaf1ead5da4be
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=25;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Id: g=4f6f1a34863f6d3050b9b3a3cab5e737
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/QuickStart/Model"
+    Children:
+    - Name: Kind
+      Id: g=2bf74c037c4af774d89f2fa72425a9e5
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Id: g=3416e09f47e5108af88df7e2a6b7f423
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/QuickStart/DataStores/ RecipeDB"
+    Children:
+    - Name: Kind
+      Id: g=2d628dbb5c3e32c84f3f8aef41b8c118
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: EditModel
+    Id: g=5695aee2e375eab42022e86fbcf985db
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Id: g=0c6e6ed46dbcd156a279debf362a174a
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient02
+      Id: g=de36d0753ccce38fbea08cb6f84b7466
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient03
+      Id: g=855fb247d150c2226794ae0452f56237
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0

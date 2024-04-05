@@ -1,0 +1,90 @@
+Name: QuickStart
+Id: g=78b4257da0e2e8c6fdbaa6380f67956b
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=c0787efd854a9534f97c211bab6f4e27
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=2088c233621acab5e251a2938b84631f
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=818936b8293315fc55fe8b040e5b023c
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=5e85e7fe25127b947ccf2835dfe6c889
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=b1c9fb6ffa0d823f285679309bf5bc3e
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/QuickStart/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=66a4553105a9429e1e97b1d0b0144d62
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: PasswordPolicy
+  Id: g=38ac6998ad1708a75217b87823c79817
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=e65e837a50b652b882b193c03adbb6f4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=87e878ae823e0cacb8ecd65db9b3090f
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=a746cbd24ca5f637c60f9440841f584d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=190b9eb4bab4e672b0d34498b75e0e3b
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=5abef64af3560d2fdc89617053427379
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Id: g=e4a6ac616df69f50ab24471eec35b19f
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/QuickStart/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Id: g=362148251cfbfcb114d46adee559fca0
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/QuickStart/Recipes/RecipeSchema1/EditModel"
